@@ -15,6 +15,11 @@ body{
     transition: opacity 100ms ease-in-out;
 }
 
+.banner {
+    width: 90%;
+    padding: 0% 5%;
+}
+
 h3 {
     display: inline;
     font-size: 16px;
@@ -31,6 +36,14 @@ h3 {
     padding: 16px;
 }
 
+/* b/w 577px to 720px screens */
+@media only screen and (max-width: 1px) and (max-height: 720px){
+	#main-header img, #search-bar {
+        display: flex;
+	}
+    
+}
+
 #main-header img {
     width: 128px;
     display: inline;
@@ -44,7 +57,7 @@ h3 {
     display: inline;
     border-radius: 16px;
     border: 0;
-    width: 512px;
+    width: 50%;
     height: 32px;
 }
 
@@ -128,7 +141,6 @@ label {
 
 footer {
     background: yellow;
-    height: 64px;
 }
 
 .swiper-button-next, .swiper-button-prev {
