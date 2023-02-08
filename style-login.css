@@ -1,0 +1,35 @@
+
+body {
+    background-color: #DADADA;
+    font-family: sans-serif;
+}
+
+input {
+    background-color: white;
+    border-radius: 16px;
+    border: 0;
+    height: 40px;
+    width: 512px;
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: yellow;
+    border-radius: 16px;
+    border: 0;
+    height: 48px;
+    width: 512px;
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+form {
+    display: flexbox;
+}
+
+center {
+    margin: 20%;
+}

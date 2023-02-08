@@ -1,0 +1,145 @@
+body{
+    font-family: sans-serif;
+    background-color: #EEE;
+}
+
+* {
+    margin: 0;
+}
+
+.price-without-discount {
+    font-size: 12px;
+    font-weight: normal;
+    font-family: sans-serif;
+    opacity: 0%;
+    transition: opacity 100ms ease-in-out;
+}
+
+h3 {
+    display: inline;
+    font-size: 16px;
+    color: green;
+}
+
+.price {
+    display: inline;
+}
+
+#main-header {
+    font-family: sans-serif;
+    background-color: yellow;
+    padding: 16px;
+}
+
+#main-header img {
+    width: 128px;
+    display: inline;
+}
+
+#main-header center div form {
+    display: inline;
+}
+
+#search-bar {
+    display: inline;
+    border-radius: 16px;
+    border: 0;
+    width: 512px;
+    height: 32px;
+}
+
+#search-btn {
+    border-radius: 16px;
+    border: 0;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    transition: background-color 100ms ease-in-out;
+}
+
+#search-btn:hover {
+    background-color: #EEE;   
+}
+
+#search-btn:focus {
+    background-color: #CCC;   
+}
+
+#search-btn img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+nav {
+    margin-top: 16px;
+}
+
+nav a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #777;
+    padding: 8px;
+    transition: color 100ms ease-in-out;
+}
+
+nav a:hover {
+    color: #444;
+}
+
+label {
+    color: gray;
+    padding: 16px;
+    font-size: 24px;
+}
+
+.product {
+    border-radius: 16px;
+    height: fit-content;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 16px;
+    background-color: #FAFAFA;
+}
+
+.title {
+    display: none;
+}
+
+.product:hover .title, .product:hover .price-without-discount {
+    display: block;
+    opacity: 100%;
+}
+
+.product:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+}
+
+.product img {
+    width: 256px;
+}
+
+.swiper-wrapper {
+    height: 384px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+footer {
+    background: yellow;
+    height: 64px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: black;
+}
+
+article {
+    width: 50%;
+}
+
+p {
+    margin-left: 32px;
+    color: #777;
+}
